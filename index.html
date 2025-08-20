@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="finaltraining-container">
+        <div class="finaltraining-finaltraining" style="background: linear-gradient(0deg, rgba(250, 252, 255, 1) 0%, rgba(178, 187, 229, 1) 100%);">
+          <div class="finaltraining-herosection">
+            <img
+              alt="image606407"
+              src="public/image606407-81a-800h.png"
+              class="finaltraining-image60"
+            />
+            <div class="finaltraining-header">
+              <div class="finaltraining-group7641">
+                <!-- <div class="finaltraining-logog1">     
+                  <img
+                    alt="Line416401"
+                    src="public/line416401-pfol.svg"
+                    class="finaltraining-line411"
+                  />
+                  <img
+                    alt="Line476401"
+                    src="public/line476401-si9n.svg"
+                    class="finaltraining-line471"
+                  />
+                  <img
+                    alt="Line426401"
+                    src="public/line426401-fe5r.svg"
+                    class="finaltraining-line421"
+                  />
+                  <img
+                    alt="Line486401"
+                    src="public/line486401-24xp.svg"
+                    class="finaltraining-line481"
+                  />
+                  <img
+                    alt="Line456401"
+                    src="public/line456401-yffh.svg"
+                    class="finaltraining-line451"
+                  />
+                  <img
+                    alt="Line466401"
+                    src="public/line466401-v8ew.svg"
+                    class="finaltraining-line461"
+                  />
+                  <img
+                    alt="Line436401"
+                    src="public/line436401-mbuc.svg"
+                    class="finaltraining-line431"
+                  />
+                  <img
+                    alt="Line586401"
+                    src="public/line586401-gsyd.svg"
+                    class="finaltraining-line581"
+                  />
+                  <img
+                    alt="Line526401"
+                    src="public/line526401-70xv.svg"
+                    class="finaltraining-line521"
+                  />
+                  <img
+                    alt="Line536401"
+                    src="public/line536401-dd1v.svg"
+                    class="finaltraining-line531"
+                  />
+                  <img
+                    alt="Line496401"
+                    src="public/line496401-8vep.svg"
+                    class="finaltraining-line491"
+                  />
+                  <img
+                    alt="Line576401"
+                    src="public/line576401-c17b.svg"
+                    class="finaltraining-line571"
+                  />
+                  <img
+                    alt="Line506401"
+                    src="public/line506401-uet.svg"
+                    class="finaltraining-line501"
+                  />
+                  <img
+                    alt="Line566401"
+                    src="public/line566401-620o.svg"
+                    class="finaltraining-line561"
+                  />
+                  <img
+                    alt="Line446401"
+                    src="public/line446401-qz15.svg"
+                    class="finaltraining-line441"
+                  />
+                  <img
+                    alt="Line546401"
+                    src="public/line546401-33n6.svg"
+                    class="finaltraining-line541"
+                  />
+                  <img
+                    alt="Line516401"
+                    src="public/line516401-qknx.svg"
+                    class="finaltraining-line511"
+                  />
+                  <img
+                    alt="Line556401"
+                    src="public/line556401-bh0k.svg"
+                    class="finaltraining-line551"
+                  />
+                  <img
+                    alt="Ellipse266401"
+                    src="public/ellipse266401-8jl8-200h.png"
+                    class="finaltraining-ellipse261"
+                  />
+                  <img
+                    alt="Ellipse236401"
+                    src="public/ellipse236401-nfze-200h.png"
+                    class="finaltraining-ellipse231"
+                  />
+                  <img
+                    alt="Ellipse226401"
+                    src="public/ellipse226401-ilp-200w.png"
+                    class="finaltraining-ellipse221"
+                  />
+                  <img
+                    alt="Ellipse216401"
+                    src="public/ellipse216401-8jr-200h.png"
+                    class="finaltraining-ellipse211"
+                  />
+                  <img
+                    alt="Ellipse206401"
+                    src="public/ellipse206401-e3nk-200h.png"
+                    class="finaltraining-ellipse201"
+                  />
+                  <img
+                    alt="Ellipse246401"
+                    src="public/ellipse246401-q6yc-200h.png"
+                    class="finaltraining-ellipse241"
+                  />
+                  <img
+                    alt="Ellipse256401"
+                    src="public/ellipse256401-dyki-200w.png"
+                    class="finaltraining-ellipse251"
+                  />
+                  <img
+                    alt="Ellipse196401"
+                    src="public/ellipse196401-trpl-200w.png"
+                    class="finaltraining-ellipse191"
+                  />
+                  <div class="finaltraining-group7491">
+                    <img
+                      alt="Vector236401"
+                      src="public/vector236401-gqy8.svg"
+                      class="finaltraining-vector231"
+                    />
+                    <img
+                      alt="Ellipse276401"
+                      src="public/ellipse276401-wru6-200h.png"
+                      class="finaltraining-ellipse271"
+                    />
+                  </div>
+                </div> -->
+                <img src="public/logo.png" alt="logo" width="99" height="52.15" style="top: 7px; left: 42px;">
+              </div>
+              <span class="finaltraining-text101">Codenscious Ai.</span>
+              <div class="finaltraining-group599">
+                <span class="finaltraining-text102">Join Us</span>
+              </div>
+              <div class="finaltraining-group844">
+                <span class="finaltraining-text103">Services</span>
+                <span class="finaltraining-text104">About Us</span>
+                <span class="finaltraining-text105">Products</span>
+                <span class="finaltraining-text106">Projects</span>
+              </div>
+            </div>
+            <span class="finaltraining-text107">
+              <span class="finaltraining-text108">
+                Empowering Engineers for
+              </span>
+              <br />
+              <span class="finaltraining-text109">
+                AI-Driven Innovation</span>
+            </span>
+            <span class="finaltraining-text111">
+              <span>Codenscious AI partnered with Cyient to close</span>
+              <br />
+              <span>the AI expertise gap, delivering a tailored data</span>
+              <br />
+              <span>science and AI training program. This initiative</span>
+              <br />
+              <span>transformed engineers into an innovation-</span>
+              <br />
+              <span>focused, centralized AI team — accelerating</span>
+              <br />
+              <span>
+                digital transformation, boosting efficiency, and driving smarter
+                product development.
+              </span>
+              <br />
+            </span>
+            <div class="finaltraining-group6951">
+              <span class="finaltraining-text124">Explore the Case Study</span>
+            </div>
+            <div class="finaltraining-group886">
+              <span class="finaltraining-text125">View All projects</span>
+            </div>
+          </div>
+          <div class="finaltraining-overview">
+            <span class="finaltraining-text126">
+              <span>
+                Partnering with Codenscious.ai, Cyient embarked on an ambitious
+                mission
+              </span>
+              <br />
+              <span>
+                — to empower its engineers with cutting-edge AI and Data Science
+                expertise.
+              </span>
+            </span>
+            <span class="finaltraining-text130">
+              <span>
+                Through immersive training, real-world projects, and hands-on
+                mentorship,
+              </span>
+              <br />
+              <span>engineers didn’t just learn — they transformed.</span>
+            </span>
+            <span class="finaltraining-text134">
+              <span>
+                The result? A workforce ready to innovate, solve complex
+                challenges, and
+              </span>
+              <br />
+              <span>lead the AI revolution.</span>
+            </span>
+            <span class="finaltraining-text138">
+              <span class="finaltraining-text139">
+                From Skilled to Future-Ready-
+              </span>
+              <br />
+              <span class="finaltraining-text141">Building</span>
+              <span class="finaltraining-text142">AI Excellence at Cyient</span>
+            </span>
+          <div class="finaltraining-group9042" style="top: 378px; left: 1021px;">
+              <img
+                alt="Rectangle2696407"
+                src="public/rectangle2696407-3sl8-200h.png"
+                class="finaltraining-rectangle269"
+              />
+              <span class="finaltraining-text145" style="width: 200px;">Ai Solutions</span>
+              <img
+                alt="Vector6408"
+                src="public/bulb.png"
+                class="finaltraining-vector10"
+              />
+              <span class="finaltraining-text146">across 5 Domains</span>
+            </div>
+            <div class="finaltraining-group9042">
+              <img
+                alt="Rectangle2696407"
+                src="public/rectangle2696407-3sl8-200h.png"
+                class="finaltraining-rectangle269"
+              />
+              <span class="finaltraining-text145">40%</span>
+              <img
+                alt="Vector6408"
+                src="public/40.png"
+                class="finaltraining-vector10"
+              />
+              <span class="finaltraining-text146">Faster Project Delivery</span>
+            </div>
+            <div class="finaltraining-group9042" style="top: 378px; left: 121px;">
+              <img
+                alt="Rectangle2696407"
+                src="public/rectangle2696407-3sl8-200h.png"
+                class="finaltraining-rectangle269"
+              />
+              <span class="finaltraining-text145">200+</span>
+              <img
+                alt="Vector6408"
+                src="public/200.png"
+                class="finaltraining-vector10"
+              />
+              <span class="finaltraining-text146">Enginners Upskilled</span>
+            </div>
+            
+            <img
+              alt="image686408"
+              src="public/image686408-jew-300h.png"
+              class="finaltraining-image68"
+            />
+          </div>
+          <div class="finaltraining-keytakeaway">
+            <span class="finaltraining-text149">
+              Shaping the Future with AI
+            </span>
+            <span class="finaltraining-text150">
+              From concept to scale — your roadmap to innovation starts here.
+            </span>
+            <div class="finaltraining-group6952">
+              <img
+                alt="Rectangle172I640"
+                src="public/rectangle172i640-31c-200h.png"
+                class="finaltraining-rectangle172"
+              />
+              <span class="finaltraining-text151">Let’s Shape the Future</span>
+            </div>
+            <div class="finaltraining-group921">
+              <span class="finaltraining-text152">
+                Build Future-Ready Skills
+              </span>
+              <span class="finaltraining-text153">
+                Deliver immersive AI learning experiences that prepare your
+                teams for tomorrow’s toughest challenges.
+              </span>
+              <div class="finaltraining-image691">
+                <img
+                  alt="image69I640"
+                  src="public/image69i640-vlxr-200h.png"
+                  class="finaltraining-image692"
+                />
+              </div>
+            </div>
+            <div class="finaltraining-group918">
+              <span class="finaltraining-text154">
+                Ignite Rapid Experimentation
+              </span>
+              <span class="finaltraining-text155">
+                Transform bold ideas into working prototypes — faster than ever
+                before.
+              </span>
+              <div class="finaltraining-image721">
+                <img
+                  alt="image72I640"
+                  src="public/image72i640-gdh-200w.png"
+                  class="finaltraining-image722"
+                />
+              </div>
+            </div>
+            <div class="finaltraining-group920">
+              <span class="finaltraining-text156">
+                Expand Collaborative Networks
+              </span>
+              <span class="finaltraining-text157">
+                Connect with AI leaders, innovators, and industry peers to
+                co-create groundbreaking solutions.
+              </span>
+              <div class="finaltraining-image741">
+                <img
+                  alt="image74I640"
+                  src="public/image74i640-daye-200w.png"
+                  class="finaltraining-image742"
+                />
+              </div>
+            </div>
+            <div class="finaltraining-group922">
+              <div class="finaltraining-group919">
+                <span class="finaltraining-text158">
+                  Reimagine Core Processes
+                </span>
+                <span class="finaltraining-text159">
+                  Rebuild workflows with AI-powered efficiency, agility, and
+                  precision.
+                </span>
+              </div>
+              <div class="finaltraining-image711">
+                <img
+                  alt="image71I640"
+                  src="public/image71i640-u2pr-200h.png"
+                  class="finaltraining-image712"
+                />
+              </div>
+            </div>
+            <img
+              alt="Line1076401"
+              src="public/line1076401-ciaf.svg"
+              class="finaltraining-line1071"
+            />
+          </div>
+          <div class="finaltraining-footer">
+            <span class="finaltraining-text160">Codenscious.ai</span>
+            <div class="finaltraining-frame6241">
+              <span class="finaltraining-text161">Contact Us</span>
+              <img
+                alt="Vector6409"
+                src="public/vector6409-qan.svg"
+                class="finaltraining-vector11"
+              />
+              <img
+                alt="Vector6409"
+                src="public/vector6409-jkxa.svg"
+                class="finaltraining-vector12"
+              />
+            </div>
+            <span class="finaltraining-text162">Information</span>
+            <div class="finaltraining-frame625">
+              <span class="finaltraining-text163">About Us</span>
+              <span class="finaltraining-text164">Events</span>
+              <span class="finaltraining-text165">Testimonials</span>
+              <span class="finaltraining-text166">More Details</span>
+              <span class="finaltraining-text167">Blogs</span>
+            </div>
+            <div class="finaltraining-frame6242">
+              <span class="finaltraining-text168">Services</span>
+              <span class="finaltraining-text169">Support</span>
+              <span class="finaltraining-text170">Privacy Policy</span>
+              <span class="finaltraining-text171">Terms &amp; Conditions</span>
+            </div>
+            <span class="finaltraining-text172">Links</span>
+            <span class="finaltraining-text173">Subscribe</span>
+            <span class="finaltraining-text174">
+              <span>Subscribe to our newsletter</span>
+              <br />
+              <span>for upcoming news!!</span>
+            </span>
+            <div class="finaltraining-group624">
+              <span class="finaltraining-text178">Subscribe</span>
+            </div>
+            <div class="finaltraining-group625">
+              <span class="finaltraining-text179">Enter Your Email</span>
+            </div>
+            <img
+              alt="Line46409"
+              src="public/line46409-x3t.svg"
+              class="finaltraining-line4"
+            />
+            <div class="finaltraining-group7642">
+              <div class="finaltraining-logog2">
+                <img
+                  alt="Line416409"
+                  src="public/line416409-q1f.svg"
+                  class="finaltraining-line412"
+                />
+                <img
+                  alt="Line476409"
+                  src="public/line476409-fz2xqk.svg"
+                  class="finaltraining-line472"
+                />
+                <img
+                  alt="Line426409"
+                  src="public/line426409-ht0r.svg"
+                  class="finaltraining-line422"
+                />
+                <img
+                  alt="Line486409"
+                  src="public/line486409-3vod.svg"
+                  class="finaltraining-line482"
+                />
+                <img
+                  alt="Line456409"
+                  src="public/line456409-vjav.svg"
+                  class="finaltraining-line452"
+                />
+                <img
+                  alt="Line466409"
+                  src="public/line466409-ugan.svg"
+                  class="finaltraining-line462"
+                />
+                <img
+                  alt="Line436409"
+                  src="public/line436409-hg5o.svg"
+                  class="finaltraining-line432"
+                />
+                <img
+                  alt="Line586409"
+                  src="public/line586409-1irn.svg"
+                  class="finaltraining-line582"
+                />
+                <img
+                  alt="Line526409"
+                  src="public/line526409-q7me.svg"
+                  class="finaltraining-line522"
+                />
+                <img
+                  alt="Line536409"
+                  src="public/line536409-xana.svg"
+                  class="finaltraining-line532"
+                />
+                <img
+                  alt="Line496409"
+                  src="public/line496409-b7x.svg"
+                  class="finaltraining-line492"
+                />
+                <img
+                  alt="Line576409"
+                  src="public/line576409-1x92.svg"
+                  class="finaltraining-line572"
+                />
+                <img
+                  alt="Line506409"
+                  src="public/line506409-vvhx.svg"
+                  class="finaltraining-line502"
+                />
+                <img
+                  alt="Line566409"
+                  src="public/line566409-wkn.svg"
+                  class="finaltraining-line562"
+                />
+                <img
+                  alt="Line446409"
+                  src="public/line446409-gy0y.svg"
+                  class="finaltraining-line442"
+                />
+                <img
+                  alt="Line546409"
+                  src="public/line546409-wqt.svg"
+                  class="finaltraining-line542"
+                />
+                <img
+                  alt="Line516409"
+                  src="public/line516409-sdu7.svg"
+                  class="finaltraining-line512"
+                />
+                <img
+                  alt="Line556409"
+                  src="public/line556409-oluu.svg"
+                  class="finaltraining-line552"
+                />
+                <img
+                  alt="Ellipse266409"
+                  src="public/ellipse266409-8tl8-200h.png"
+                  class="finaltraining-ellipse262"
+                />
+                <img
+                  alt="Ellipse236409"
+                  src="public/ellipse236409-nhbq-200h.png"
+                  class="finaltraining-ellipse232"
+                />
+                <img
+                  alt="Ellipse226409"
+                  src="public/ellipse226409-w9g3-200h.png"
+                  class="finaltraining-ellipse222"
+                />
+                <img
+                  alt="Ellipse216401"
+                  src="public/ellipse216401-e0id-200h.png"
+                  class="finaltraining-ellipse212"
+                />
+                <img
+                  alt="Ellipse206401"
+                  src="public/ellipse206401-kg3k-200h.png"
+                  class="finaltraining-ellipse202"
+                />
+                <img
+                  alt="Ellipse246401"
+                  src="public/ellipse246401-e4h8n-200h.png"
+                  class="finaltraining-ellipse242"
+                />
+                <img
+                  alt="Ellipse256401"
+                  src="public/ellipse256401-0ncc-200h.png"
+                  class="finaltraining-ellipse252"
+                />
+                <img
+                  alt="Ellipse196401"
+                  src="public/ellipse196401-kdyo-200h.png"
+                  class="finaltraining-ellipse192"
+                />
+                <div class="finaltraining-group7492">
+                  <img
+                    alt="Vector236401"
+                    src="public/vector236401-bjve.svg"
+                    class="finaltraining-vector232"
+                  />
+                  <img
+                    alt="Ellipse276401"
+                    src="public/ellipse276401-3ojc-200h.png"
+                    class="finaltraining-ellipse272"
+                  />
+                </div>
+              </div>
+              <span class="finaltraining-text180">&lt; / &gt;</span>
+            </div>
+            <div class="finaltraining-group833">
+              <img
+                alt="Vector6401"
+                src="public/vector6401-7nzi.svg"
+                class="finaltraining-vector13"
+              />
+              <div class="finaltraining-group832">
+                <img
+                  alt="Vector6401"
+                  src="public/vector6401-t4ep.svg"
+                  class="finaltraining-vector14"
+                />
+                <img
+                  alt="Vector6401"
+                  src="public/vector6401-ljiu.svg"
+                  class="finaltraining-vector15"
+                />
+              </div>
+            </div>
+            <span class="finaltraining-text181">
+              <span>"Crafting innovative digital experiences</span>
+              <br />
+              <span>that transform businesses."</span>
+            </span>
+          </div>
+          <div class="finaltraining-impact">
+            <span class="finaltraining-text185">
+              Turning AI readiness into measurable business gains
+            </span>
+            <span class="finaltraining-text186">
+              <span>
+                By combining tailored training with real-world application,
+                Cyient’s engineers are not just learning AI —
+              </span>
+              <br />
+              <span>
+                they’re leveraging it to deliver faster results, stronger
+                collaboration, and ongoing innovation.
+              </span>
+            </span>
+            <img
+              alt="Rectangle1746408"
+              src="public/rectangle1746408-zov6.svg"
+              class="finaltraining-rectangle174"
+            />
+            <div class="finaltraining-group916">
+              <div class="finaltraining-group910">
+                <span class="finaltraining-text190">
+                  <span>+85%</span>
+                  <br />
+                  <span>Active Adoption</span>
+                </span>
+                <span class="finaltraining-text194">
+                  Engineers consistently applying AI tools in ongoing,
+                  high-impact projects.
+                </span>
+              </div>
+              <img
+                alt="Group9126408"
+                src="public/group9126408-pnos.svg"
+                class="finaltraining-group912"
+              />
+            </div>
+            <div class="finaltraining-group915">
+              <div class="finaltraining-group9091">
+                <span class="finaltraining-text195">
+                  <span>+70%</span>
+                  <br />
+                  <span>Deployment Speed</span>
+                </span>
+                <span class="finaltraining-text199">
+                  Greater efficiency in delivering AI solutions from concept to
+                  production.
+                </span>
+              </div>
+              <div class="finaltraining-startup11">
+                <img
+                  alt="startup1I640"
+                  src="public/startup1i640-88ium-200h.png"
+                  class="finaltraining-startup12"
+                />
+              </div>
+            </div>
+            <div class="finaltraining-group913">
+              <div class="finaltraining-group911">
+                <span class="finaltraining-text200">
+                  <span>+50%</span>
+                  <br />
+                  <span>Collaboration Growth</span>
+                </span>
+                <span class="finaltraining-text204">
+                  Increase in cross-team engagement on AI initiatives, enabling
+                  faster knowledge sharing and problem-solving.
+                </span>
+              </div>
+              <div class="finaltraining-deal11">
+                <img
+                  alt="deal1I640"
+                  src="public/deal1i640-2i4-200h.png"
+                  class="finaltraining-deal12"
+                />
+              </div>
+            </div>
+            <div class="finaltraining-group917">
+              <div class="finaltraining-group9092">
+                <span class="finaltraining-text205">
+                  <span>2x</span>
+                  <br />
+                  <span>Innovation Output</span>
+                </span>
+                <span class="finaltraining-text209">
+                  Doubling the number of AI-driven ideas, prototypes, and
+                  implemented solutions across business units.
+                </span>
+              </div>
+              <div class="finaltraining-group914">
+                <img
+                  alt="lightbulb11I640"
+                  src="public/lightbulb11i640-0tgd-200h.png"
+                  class="finaltraining-lightbulb11"
+                />
+                <img
+                  alt="Arrow22I640"
+                  src="public/arrow22i640-d73c.svg"
+                  class="finaltraining-arrow22"
+                />
+                <img
+                  alt="Arrow23I640"
+                  src="public/arrow23i640-yyt9.svg"
+                  class="finaltraining-arrow23"
+                />
+              </div>
+            </div>
+            <span class="finaltraining-text210">
+              <span>
+                These measurable gains prove that with the right training,
+                tools, and culture, AI can transform not just processes —
+              </span>
+              <br />
+              <span>but the entire pace of innovation at Cyient.</span>
+            </span>
+          </div>
+          <div class="finaltraining-benifits">
+            <div class="finaltraining-group901">
+              <img
+                alt="Rectangle268I640"
+                src="public/rectangle268i640-101-200h.png"
+                class="finaltraining-rectangle2681"
+              />
+              <span class="finaltraining-text214">Innovation Acceleration</span>
+              <div class="finaltraining-group2">
+                <img
+                  alt="VectorI640"
+                  src="public/vectori640-2mbl.svg"
+                  class="finaltraining-vector16"
+                />
+                <img
+                  alt="VectorI640"
+                  src="public/vectori640-u4h6.svg"
+                  class="finaltraining-vector17"
+                />
+              </div>
+              <span class="finaltraining-text215">
+                <span>Centralized AI expertise to fast-track</span>
+                <br />
+                <span>initiatives and deliver breakthrough</span>
+                <br />
+                <span>solutions.</span>
+              </span>
+            </div>
+            <div class="finaltraining-group8991">
+              <img
+                alt="Rectangle268I640"
+                src="public/rectangle268i640-imn-200h.png"
+                class="finaltraining-rectangle2682"
+              />
+              <span class="finaltraining-text221">Data Intelligence</span>
+              <img
+                alt="VectorI640"
+                src="public/vectori640-z3.svg"
+                class="finaltraining-vector18"
+              />
+              <span class="finaltraining-text222">
+                Advanced analytics to collect, process, and interpret data —
+                enabling smarter, faster decisions.
+              </span>
+            </div>
+            <div class="finaltraining-group8992">
+              <img
+                alt="Rectangle268I640"
+                src="public/rectangle268i640-5pih-200h.png"
+                class="finaltraining-rectangle2683"
+              />
+              <span class="finaltraining-text223">Operational Excellence</span>
+              <div class="finaltraining-group3">
+                <img
+                  alt="VectorI640"
+                  src="public/vectori640-vw28.svg"
+                  class="finaltraining-vector19"
+                />
+                <img
+                  alt="VectorI640"
+                  src="public/vectori640-042.svg"
+                  class="finaltraining-vector20"
+                />
+              </div>
+              <span class="finaltraining-text224">
+                Practical AI skills for faster problem-solving, smoother
+                workflows, and higher productivity.
+              </span>
+            </div>
+            <div class="finaltraining-group900">
+              <img
+                alt="Rectangle268I640"
+                src="public/rectangle268i640-pdd-200h.png"
+                class="finaltraining-rectangle2684"
+              />
+              <span class="finaltraining-text225">Smart Cost Efficiency</span>
+              <div class="finaltraining-group902">
+                <img
+                  alt="VectorI640"
+                  src="public/vectori640-6xoj.svg"
+                  class="finaltraining-vector21"
+                />
+                <img
+                  alt="Arrow17I640"
+                  src="public/arrow17i640-uzwo.svg"
+                  class="finaltraining-arrow17"
+                />
+                <img
+                  alt="Arrow20I640"
+                  src="public/arrow20i640-17sa.svg"
+                  class="finaltraining-arrow20"
+                />
+                <img
+                  alt="Line96I640"
+                  src="public/line96i640-xpgg.svg"
+                  class="finaltraining-line96"
+                />
+                <img
+                  alt="Arrow21I640"
+                  src="public/arrow21i640-ry6l.svg"
+                  class="finaltraining-arrow21"
+                />
+              </div>
+              <span class="finaltraining-text226">
+                AI-powered automation cuts manual effort, boosts ROI, and
+                reduces operational overhead.
+              </span>
+            </div>
+            <span class="finaltraining-text227">Benefits to Cyient</span>
+            <span class="finaltraining-text228">
+              Unlocking measurable impact through AI-driven transformation
+            </span>
+            <img
+              alt="Line1096401"
+              src="public/line1096401-v1z.svg"
+              class="finaltraining-line109"
+            />
+          </div>
+          <div class="finaltraining-innovation">
+            <span class="finaltraining-text229">
+              Innovative Solutions Driving AI Transformation
+            </span>
+            <span class="finaltraining-text230">
+              <span>
+                Empowering Cyient's engineers with practical AI tools, strategic
+                expertise, and seamless
+              </span>
+              <br />
+              <span>integration for measurable results.</span>
+            </span>
+            <div class="finaltraining-frame653">
+              <span class="finaltraining-text234">
+                <span>Tailored AI</span>
+                <br />
+                <span>Curriculum</span>
+              </span>
+              <span class="finaltraining-text238">
+                <span>Custom-built learning paths</span>
+                <br />
+                <span>focused on real-world engineering</span>
+                <br />
+                <span>applications, aligned with Cyient's</span>
+                <br />
+                <span>industry challenges.</span>
+              </span>
+              <div class="finaltraining-group908">
+                <div class="finaltraining-group907">
+                  <img
+                    alt="Line976408"
+                    src="public/line976408-31rr.svg"
+                    class="finaltraining-line97"
+                  />
+                  <div class="finaltraining-group906">
+                    <img
+                      alt="Vector6408"
+                      src="public/vector6408-yby.svg"
+                      class="finaltraining-vector22"
+                    />
+                    <img
+                      alt="Line1016408"
+                      src="public/line1016408-ayja.svg"
+                      class="finaltraining-line101"
+                    />
+                    <img
+                      alt="Line986408"
+                      src="public/line986408-1le8.svg"
+                      class="finaltraining-line98"
+                    />
+                    <img
+                      alt="Line996408"
+                      src="public/line996408-r74f.svg"
+                      class="finaltraining-line99"
+                    />
+                    <img
+                      alt="Line1056408"
+                      src="public/line1056408-i6lj.svg"
+                      class="finaltraining-line105"
+                    />
+                    <img
+                      alt="Line1046408"
+                      src="public/line1046408-5v9e.svg"
+                      class="finaltraining-line104"
+                    />
+                    <img
+                      alt="Line1036408"
+                      src="public/line1036408-yb1q.svg"
+                      class="finaltraining-line103"
+                    />
+                    <img
+                      alt="Line1026408"
+                      src="public/line1026408-l1a.svg"
+                      class="finaltraining-line102"
+                    />
+                    <img
+                      alt="Line1006408"
+                      src="public/line1006408-udfj.svg"
+                      class="finaltraining-line100"
+                    />
+                    <img
+                      alt="Rectangle2706408"
+                      src="public/rectangle2706408-s3ul-200h.png"
+                      class="finaltraining-rectangle270"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="finaltraining-frame686">
+              <div class="finaltraining-group6961">
+                <img
+                  alt="Rectangle1736408"
+                  src="public/rectangle1736408-elma-200h.png"
+                  class="finaltraining-rectangle1731"
+                />
+                <img
+                  alt="gear6408"
+                  src="public/gear6408-4g2-200h.png"
+                  class="finaltraining-gear"
+                />
+                <span class="finaltraining-text246">
+                  <span>Seamless Project</span>
+                  <br />
+                  <span>Integration</span>
+                </span>
+              </div>
+              <span class="finaltraining-text250">
+                <span>Embedding AI into existing processes</span>
+                <br />
+                <span>to optimize performance,</span>
+                <br />
+                <span>boost efficiency, and</span>
+                <br />
+                <span>scale innovation.</span>
+              </span>
+            </div>
+            <div class="finaltraining-frame685">
+              <div class="finaltraining-group6962">
+                <img
+                  alt="Rectangle1736408"
+                  src="public/rectangle1736408-gjj9-200h.png"
+                  class="finaltraining-rectangle1732"
+                />
+                <img
+                  alt="artificialintelligence6408"
+                  src="public/artificialintelligence6408-78h-200h.png"
+                  class="finaltraining-artificialintelligence"
+                />
+                <span class="finaltraining-text258">
+                  <span>Central AI</span>
+                  <br />
+                  <span>Innovation Hub</span>
+                </span>
+              </div>
+              <span class="finaltraining-text262">
+                <span>A dedicated cross-functional team</span>
+                <br />
+                <span>accelerating AI initiatives</span>
+                <br />
+                <span>and fostering collaboration</span>
+                <br />
+                <span>across business units.</span>
+              </span>
+            </div>
+            <div class="finaltraining-frame684">
+              <div class="finaltraining-group6963">
+                <img
+                  alt="Rectangle1736408"
+                  src="public/rectangle1736408-uwz9-200h.png"
+                  class="finaltraining-rectangle1733"
+                />
+                <img
+                  alt="meeting6408"
+                  src="public/meeting6408-c9jc-200h.png"
+                  class="finaltraining-meeting"
+                />
+                <span class="finaltraining-text270">
+                  <span>Hands-On</span>
+                  <br />
+                  <span>Mentorship</span>
+                </span>
+              </div>
+              <span class="finaltraining-text274">
+                <span>Guided by AI and data science</span>
+                <br />
+                <span>experts, teams tackle live</span>
+                <br />
+                <span>projects, turning theory into</span>
+                <br />
+                <span>tangible outcomes.</span>
+              </span>
+            </div>
+            <img
+              alt="Line1076401"
+              src="public/line1076401-5sve.svg"
+              class="finaltraining-line1072"
+            />
+          </div>
+          <img
+            alt="Line1066401"
+            src="public/line1066401-j1jg.svg"
+            class="finaltraining-line106"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
