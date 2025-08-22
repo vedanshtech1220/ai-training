@@ -1592,13 +1592,13 @@
 
 .finaltraining-group7642 {
   top: 20px;
-  left: 16px;
+  /* left: 16px; */
   width: 121px;
   height: 62px;
-  display: flex;
+  /* display: flex; */
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+  /* align-items: flex-start; */
+  /* flex-shrink: 1; */
 }
 
 /* .finaltraining-logog2 {
